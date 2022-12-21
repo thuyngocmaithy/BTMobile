@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/officeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="President"
+        android:textColor="@color/violet"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/officialName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Mike"
+        android:layout_marginTop="8dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/violet"
+        />
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:backgroundTint="@color/violet"
+        android:background="@color/violet"
+        />
+
+</LinearLayout>

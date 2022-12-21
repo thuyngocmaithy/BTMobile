@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/relativeLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    tools:context=".MainRelativelayout"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <View
+            android:id="@+id/l1"
+            android:layout_width="168dp"
+            android:layout_height="322dp"
+            android:layout_weight="1"
+            android:background="#FF0000">
+
+        </View>
+
+        <View
+            android:id="@+id/l2"
+            android:layout_width="168dp"
+            android:layout_height="322dp"
+            android:layout_weight="1"
+            android:background="#0000FF"
+            android:layout_below="@+id/l1">
+        </View>
+
+        <View
+            android:id="@+id/l3"
+            android:background="#FFFF00"
+            android:layout_width="290dp"
+            android:layout_height="215dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/l1">
+
+        </View>
+
+        <View
+            android:id="@+id/l4"
+            android:layout_width="290dp"
+            android:layout_height="215dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/l1"
+            android:layout_below="@+id/l3"
+            android:background="#FFFFFF" >
+
+        </View>
+
+        <View
+            android:id="@+id/l5"
+            android:layout_width="290dp"
+            android:layout_height="215dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@+id/l1"
+            android:layout_below="@+id/l4"
+            android:background="#FF00FF" >
+
+        </View>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_below="@+id/rl1"
+        android:orientation="vertical">
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:progress="0"
+            android:max="255"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

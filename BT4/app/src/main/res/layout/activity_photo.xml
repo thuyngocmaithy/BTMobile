@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/normalize_Photo"
+        android:textAlignment="center"
+        android:text="No Data For Location"
+        android:textSize="17dp"
+        android:background="@color/violet"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/department_Photo"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:text="United States"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_Photo"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Tammy Duckworth"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingHorizontal="40dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:id="@+id/img_Photo"
+            android:layout_gravity="center"
+            android:src="@drawable/img_default"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foods>
+    <food id="1">
+        <name>Proteins</name>
+        <link>https://www.petfoodindustry.com/rss/topic/292-proteins</link>
+    </food>
+    <food id="2">
+        <name>Amino Acids</name>
+        <link>https://www.petfoodindustry.com/rss/topic/293-amino-acids</link>
+    </food>
+    <food id="3">
+        <name>Grains and Starches</name>
+        <link>https://www.petfoodindustry.com/rss/topic/294-grains-and-starches</link>
+    </food>
+    <food id="4">
+        <name>Fibers and Legumes</name>
+        <link>https://www.petfoodindustry.com/rss/topic/295-fibers-and-legumes</link>
+    </food>
+    <food id="5">
+        <name>Vitamins</name>
+        <link>https://www.petfoodindustry.com/rss/topic/296-vitamins</link>
+    </food>
+    <food id="6">
+        <name>PMinerals</name>
+        <link>https://www.petfoodindustry.com/rss/topic/297-minerals</link>
+    </food>
+</foods>
